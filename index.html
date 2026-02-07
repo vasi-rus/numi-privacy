@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numi - Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: #FFF9E6;
+      color: #333;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #9B7ED9 0%, #B89AE8 100%);
+      padding: 48px 24px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 50%;
+    }
+
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: -40px;
+      left: -30px;
+      width: 140px;
+      height: 140px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 50%;
+    }
+
+    .header-logo {
+      font-size: 48px;
+      margin-bottom: 8px;
+    }
+
+    .header h1 {
+      color: #fff;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+
+    .header-sub {
+      color: rgba(255,255,255,0.85);
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .updated {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.9);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-top: 16px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: -24px auto 0;
+      padding: 0 16px 60px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .highlight-card {
+      background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
+      border: 2px solid #81C784;
+      text-align: center;
+      padding: 28px;
+    }
+
+    .highlight-icon {
+      font-size: 40px;
+      margin-bottom: 8px;
+    }
+
+    .highlight-text {
+      font-size: 18px;
+      font-weight: 700;
+      color: #2E7D32;
+      line-height: 1.5;
+    }
+
+    .highlight-sub {
+      font-size: 14px;
+      color: #558B2F;
+      margin-top: 6px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #9B7ED9;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h2 .icon {
+      font-size: 22px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      font-size: 15px;
+      color: #555;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0;
+    }
+
+    li {
+      position: relative;
+      padding: 8px 0 8px 28px;
+      font-size: 15px;
+      color: #555;
+      border-bottom: 1px solid #f5f5f5;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 14px;
+      width: 16px;
+      height: 16px;
+      background: #E8F5E9;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    li::after {
+      content: '\2713';
+      position: absolute;
+      left: 3px;
+      top: 12px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #4CAF50;
+    }
+
+    .contact-card {
+      text-align: center;
+      background: linear-gradient(135deg, #F3E5F5 0%, #EDE7F6 100%);
+      border: 2px solid #CE93D8;
+    }
+
+    .contact-card p {
+      color: #6A1B9A;
+    }
+
+    .contact-email {
+      display: inline-block;
+      background: #9B7ED9;
+      color: #fff !important;
+      text-decoration: none;
+      padding: 10px 28px;
+      border-radius: 24px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 8px;
+      transition: background 0.2s;
+    }
+
+    .contact-email:hover {
+      background: #8B6EC9;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 24px;
+      color: #bbb;
+      font-size: 13px;
+    }
+
+    .footer span {
+      color: #9B7ED9;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-logo">🔢</div>
+    <h1>Numi</h1>
+    <p class="header-sub">Privacy Policy</p>
+    <span class="updated">Last updated: February 7, 2026</span>
+  </div>
+
+  <div class="container">
+
+    <!-- Hero highlight -->
+    <div class="card highlight-card">
+      <div class="highlight-icon">🛡️</div>
+      <p class="highlight-text">Numi collects zero personal data.<br>Your child's privacy is fully protected.</p>
+      <p class="highlight-sub">No accounts. No tracking. No ads. 100% offline.</p>
+    </div>
+
+    <!-- Overview -->
+    <div class="card">
+      <h2><span class="icon">📋</span> Overview</h2>
+      <p>Numi is a children's math learning game designed for kids ages 4-10. We take children's privacy extremely seriously. This policy explains how the App handles information.</p>
+    </div>
+
+    <!-- Data Collection -->
+    <div class="card">
+      <h2><span class="icon">🔒</span> Data Collection</h2>
+      <p><strong>Numi does not collect, store, or transmit any personal data.</strong></p>
+      <ul>
+        <li>No account or sign-up is required</li>
+        <li>No names, emails, or personal information are requested</li>
+        <li>No location data is accessed</li>
+        <li>No photos, camera, or microphone access is used</li>
+        <li>No analytics or tracking tools are used</li>
+        <li>No cookies or advertising identifiers are used</li>
+      </ul>
+    </div>
+
+    <!-- Local Storage -->
+    <div class="card">
+      <h2><span class="icon">💾</span> Local Storage</h2>
+      <p>The App stores game progress (completed levels, stars earned) locally on the device using standard device storage. This data:</p>
+      <ul>
+        <li>Never leaves the device</li>
+        <li>Is not transmitted to any server</li>
+        <li>Is not shared with any third party</li>
+        <li>Can be deleted by clearing the app data or uninstalling the App</li>
+      </ul>
+    </div>
+
+    <!-- Internet Access -->
+    <div class="card">
+      <h2><span class="icon">📡</span> Internet Access</h2>
+      <p>Numi works completely offline. No internet connection is required to use the App. The App does not make network requests of any kind during normal use.</p>
+    </div>
+
+    <!-- Third-Party Services -->
+    <div class="card">
+      <h2><span class="icon">🧩</span> Third-Party Services</h2>
+      <p>Numi does not integrate any third-party services, SDKs, or APIs that collect data. There are no ads, no in-app purchases, and no external analytics.</p>
+    </div>
+
+    <!-- Children's Privacy -->
+    <div class="card">
+      <h2><span class="icon">👶</span> Children's Privacy</h2>
+      <p>Numi is designed for children and fully complies with the Children's Online Privacy Protection Act (COPPA) and applicable children's data protection regulations, including GDPR provisions for minors.</p>
+      <p>Since no personal data is collected, there is no risk of unauthorized data use. The App does not contain any mechanism to identify individual users.</p>
+    </div>
+
+    <!-- Changes -->
+    <div class="card">
+      <h2><span class="icon">📝</span> Changes to This Policy</h2>
+      <p>If we make changes to this privacy policy, we will update the "Last updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card contact-card">
+      <h2 style="justify-content: center;"><span class="icon">💬</span> Contact Us</h2>
+      <p>If you have questions about this privacy policy, we'd love to hear from you.</p>
+      <a href="mailto:vasy.rus.01@gmail.com" class="contact-email">vasy.rus.01@gmail.com</a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Made with care by <span>Numi</span> &middot; A safe space for young learners
+  </div>
+
+</body>
+</html>
