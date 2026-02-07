@@ -214,14 +214,37 @@
 
     .footer {
       text-align: center;
-      padding: 24px;
-      color: #bbb;
-      font-size: 13px;
+      padding: 36px 20px;
+      background: #FFF9E6;
     }
 
-    .footer span {
+    .footer-brand {
+      font-size: 15px;
+      font-weight: 700;
+      color: #bbb;
+      margin-bottom: 8px;
+    }
+
+    .footer-brand span {
       color: #9B7ED9;
-      font-weight: 600;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+    }
+
+    .footer-links a {
+      color: #999;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #9B7ED9;
     }
   </style>
 </head>
@@ -310,7 +333,10 @@
   </div>
 
   <div class="footer">
-    Made with care by <span>Numi</span> &middot; A safe space for young learners
+    <div class="footer-brand">Made with &#x2764; by <span>Numi</span></div>
+    <div class="footer-links">
+      <a href="https://vasi-rus.github.io/numi-app/">Back to Numi</a>
+    </div>
   </div>
 
 </body>
